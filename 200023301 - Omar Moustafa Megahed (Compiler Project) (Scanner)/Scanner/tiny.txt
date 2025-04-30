@@ -1,0 +1,33 @@
+/* Test C- specific lexical elements */
+int y;
+y = 18;
+y++;
+y--;
+y += 10;
+y -= 5;
+y *= 2;
+y /= 4;
+
+if (y > 0 && y < 30)
+  y = y + 1;
+
+if (y <= 20 || y >= 40)
+  y = y - 1;
+
+if (!y)
+  y = 1;
+
+int arr[5];
+arr[0] = 1;
+arr[4] = 5;
+
+while (y > 0)
+  y = y - 1;
+
+/* Test comment styles */
+// Single line comment
+/* Multi-line 
+   comment test */
+
+void func(int param)
+  return;
